@@ -1,0 +1,235 @@
+---
+title: "Sistema de Gestão"
+subtitle: "Material de Apoio - Help BackOffice FESPSP."
+author: "Dr.DOOM"
+institute: "Consórcio Empreendedor"
+date: "05/05/2022 (updated: `r format(as.Date(Sys.Date()), format = '%d/%m/%Y')`)"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true    
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+```
+```{r xaringan-extra, include=FALSE, warning=FALSE, echo=FALSE}
+library(xaringanExtra)
+use_xaringan_extra(
+  c("tile_view", "panelset", "share_again", "editable")
+)
+
+use_scribble(
+  pen_color = "#d33f49",
+  pen_size = 4,
+  palette = c("#d33f49", "#466683", "#338d70", "#c0af3f", "#ff6300")
+)
+```
+
+
+class: center, middle
+# Manual do Sistema de Gestão
+
+.pull-left[
+<img src="img/fespsp.png" width=250 height=250>
+]
+
+.pull-right[
+<img src="img/sebrae.jpg" width=250 height=250>
+]
+
+---
+## Sumário
+
+# atualizar
+
+Link de acesso ao sistema....................................................................  
+Logar no sistema.............................................................................  
+Trocar a senha de acesso.....................................................................  
+Esqueci minha senha..........................................................................  
+Visualizar e exportar encontros por solução..................................................  
+Visualizar e exportar execução dos municípios................................................
+
+???
+test - coloque no modo de apresentação e pressione p, pronto, suas anotações referentes a cada slide aparecerão na lateral da sua tela juntamente com um cronômetro enão na apresentação principal
+---
+[http://sp-hlg.cidadeempreendedora.com.br/#/cidade](http://sp-hlg.cidadeempreendedora.com.br/#/cidade/)  
+
+.center[.full-width[
+<img src="img/Imagem1.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/Imagem2.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/Imagem3.png">
+]]
+
+
+---
+.center[.full-width[
+<img src="img/Imagem4.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/Imagem5.png">
+]]
+---
+
+.center[.full-width[
+<img src="img/Imagem6.png">
+]]
+---
+
+.center[.full-width[
+<img src="img/Imagem7.png">
+]]
+---
+.center[.full-width[
+<img src="img/Imagem8.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/Imagem9.png">
+]]     
+
+---
+.center[.full-width[
+<img src="img/Imagem10.png">
+]]     
+---
+.center[.full-width[
+<img src="img/Imagem11.png">
+]]     
+
+---
+.center[.full-width[
+<img src="img/Imagem12.png">
+]]     
+---
+.center[.full-width[
+<img src="img/Imagem13.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem14.png">
+]]     
+
+---
+.center[.full-width[
+<img src="img/Imagem15.png">
+]]      
+
+---
+.center[.full-width[
+<img src="img/Imagem16.png">
+]]    
+
+---
+.center[.full-width[
+<img src="img/Imagem17.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem18.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem19.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem20.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/Imagem21.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem22.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/Imagem23.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem24.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem25.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem26.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem27.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem28.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/Imagem29.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem30.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/Imagem31.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem32.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem33.png">
+]]  
+---
+.center[.full-width[
+<img src="img/Imagem34.png">
+]]  
+---
+class: center middle
+# .big-text[Obrigado!]
