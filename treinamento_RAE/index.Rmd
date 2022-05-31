@@ -1,0 +1,394 @@
+---
+title: "Sistema de Gestão"
+subtitle: "Treinamento_RAE"
+author: "Dr.DOOM"
+institute: "Consórcio Empreendedor"
+date: "05/05/2022 (updated: `r format(as.Date(Sys.Date()), format = '%d/%m/%Y')`)"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true    
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+```
+```{r xaringan-extra, include=FALSE, warning=FALSE, echo=FALSE}
+library(xaringanExtra)
+use_xaringan_extra(
+  c("tile_view", "panelset", "share_again", "editable")
+)
+
+use_scribble(
+  pen_color = "#d33f49",
+  pen_size = 4,
+  palette = c("#d33f49", "#466683", "#338d70", "#c0af3f", "#ff6300")
+)
+```
+
+
+.center[.full-width[
+<img src="img/slide01.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide02.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide03.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide04.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide05.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide06.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide07.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide08.png">
+]]   
+
+---
+.center[.full-width[
+<img src="img/slide09.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide10.png">
+]] 
+
+---
+.center[.full-width[
+<img src="img/slide11.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide12.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide13.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide14.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide15.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide16.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide17.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide18.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide19.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide20.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide21.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide22.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide23.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide24.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide25.png">
+]]   
+
+---
+.center[.full-width[
+<img src="img/slide26.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide27.png">
+]] 
+
+---
+.center[.full-width[
+<img src="img/slide28.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide29.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide30.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide31.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide32.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide33.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide34.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide35.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide36.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide37.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide38.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide39.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide40.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide41.png">
+]]   
+
+---
+.center[.full-width[
+<img src="img/slide42.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide43.png">
+]] 
+
+---
+.center[.full-width[
+<img src="img/slide44.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide45.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide46.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide47.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide48.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide49.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide50.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide51.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide52.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide53.png">
+]]
+
+---
+.center[.full-width[
+<img src="img/slide54.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide55.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide56.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide57.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide58.png">
+]]   
+
+---
+.center[.full-width[
+<img src="img/slide59.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide60.png">
+]] 
+
+---
+.center[.full-width[
+<img src="img/slide61.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide62.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide63.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide64.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide65.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide66.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide67.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide68.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide69.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide70.png">
+]]   
+
+---
+.center[.full-width[
+<img src="img/slide71.png">
+]]  
+
+---
+.center[.full-width[
+<img src="img/slide72.png">
+]] 
+
+---
+.center[.full-width[
+<img src="img/slide73.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide74.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide75.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide76.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide77.png">
+]]
+---
+.center[.full-width[
+<img src="img/slide78.png">
+]]
